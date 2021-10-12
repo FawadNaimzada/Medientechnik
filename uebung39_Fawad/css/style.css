@@ -1,0 +1,127 @@
+/** CSS-Stylesheet
+*	author: Naimzada Fawad
+*   datum : 02.04.2021
+*   about : school-website
+**/
+
+/************* general setting *************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #636366;
+	background-image: url('../img/background.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1 {
+	font-weight: 500;
+	font-size: 3.5vw;
+}
+h1, h2 {
+    text-transform: uppercase;
+    text-align: center;
+	font-weight: 400;
+}
+h1, h2, p {
+	margin: 0;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+h2{
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 1vw;
+}
+/************* colors *************/
+.it { background-color: rgba(0,80,157,0.7);}
+.it:hover { background-color: rgba(0,80,157,1) !important;}
+#informatik #wrapper {background-color: rgba(0,80,157,0.3); height: 57vw;}
+#informatik .active {background-color: rgba(0,80,157,0.7);}
+.medt { background-color: rgba(105,180,216,0.7);}
+.medt:hover {background-color: rgba(105,180,216,1) !important;;}
+#medientechnik #wrapper {background-color: rgba(105,180,216,0.3); height: 58vw;}
+#medientechnik .active {background-color: rgba(105,180,216,0.7);}
+.et {background-color: rgba(186,7,36,0.7);}
+.et:hover {background-color: rgba(186,7,36,1) !important;;}
+#elektronik #wrapper {background-color: rgba(186,7,36,0.3); height: 55.99vw;}
+#elektronik .active {background-color: rgba(186,7,36,0.7);}
+.medz {background-color: rgba(237,135,0,0.7);}
+.medz:hover {background-color: rgba(237,135,0,1) !important;;}
+#medizintechnik #wrapper {background-color: rgba(237,135,0,0.3); height: 55.99vw}
+#medizintechnik .active {background-color: rgba(237,135,0,0.7);}
+
+/************* wrapper *************/
+#wrapper {
+	background-color: rgba(0,0,0,0.5);
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+/************* header *************/
+#header{
+	padding-top: 3vw;
+}
+.rows{
+	text-align: center;
+}
+
+/************* main *************/
+#main{
+	padding-top: 3vw;
+}
+#nav{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-left: 5.5vw;
+	
+}
+#nav{
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+	margin-right: 2vw;
+}
+
+.video{
+	width: 58vw;
+	height: 34vw;
+}
+.column-2{
+	width: 38%;
+	padding-left: 1.4vw;
+	padding-right: 1.2vw;
+	padding-top: 4vw;
+}
+.column-4{
+	width: 17.5vw;
+	text-align: center;
+}
+img{
+	width: 26vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+}
+/************* footer *************/
+#footer{
+	display: flex;
+	margin-left: 37%;
+}
+.footer-2{
+	width: 60%;
+}
+.ele-medi{
+	margin-top: 3vw;
+	margin-bottom: 5vw;
+}
+/************* layout *************/
+.banner{
+	width: 60%;
+}
