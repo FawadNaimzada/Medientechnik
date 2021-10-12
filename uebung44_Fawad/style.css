@@ -1,0 +1,79 @@
+div{
+    background-color: rgb(112, 112, 112);
+    text-align: center;
+    font-size: 2em;
+    padding: 3%;
+    margin: 1%;
+    width:20vw;
+    height: 20vh;
+}
+*{
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    margin: 0vw;
+}
+h1{
+    text-align: center;
+    background-color: rgba(206, 198, 252, 0.904);
+    margin: 0vw;
+    height: 10vh;
+    padding-top: 1vw;
+}
+
+.fade_in{
+    opacity: 0.3;
+    transition: 1s;
+    margin-right: 35vw;
+    margin-left: 38vw;
+    text-align: center;
+}
+.fade_in:hover{
+    opacity: 1;
+}
+.fade_in2{
+    background-color: rgba(70, 70, 70, 0.3);
+    transition: 1s;
+    margin-right: 35vw;
+    margin-left: 38vw;
+}
+.fade_in2:hover{
+    background-color: rgb(143, 143, 143);
+}
+.grow{
+    transition: 2s;
+    margin: 5vw;
+    margin-right: 35vw;
+    margin-left: 38vw;
+}
+.grow:hover{
+    width: 15%;
+}
+.Square{
+    transition: 1s;
+    margin-right: 35vw;
+    margin-left: 38vw;
+}
+.Square:hover{
+    border-radius: 54%;
+}
+.shadow{
+    transition: 1s;
+    margin-right: 35vw;
+    margin-left: 38vw;
+}
+.shadow:hover{
+    box-shadow: 5px 10px 5px 2px #000000
+}
+.inset{
+    transition: width 1s;
+    margin-right: 35vw;
+    margin-left: 38vw;
+}
+.inset:hover{
+    border-color: #a3a2a2;
+    border-style: solid;
+    padding: auto;
+    border-width: 23px;
+}
